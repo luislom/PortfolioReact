@@ -1,22 +1,20 @@
 import {
-    FaDiagramProject,
     FaEnvelope,
-    FaFacebookF,
     FaGithub,
     FaHouse,
     FaLinkedinIn,
     FaRenren,
     FaUser,
     FaYoutube,
-    
 } from "react-icons/fa6";
+import {HiOutlineMail} from "react-icons/hi"
 
 import { AnaliticsIcon, NLPIcon, MLIcon, AnaliticsImage, MLImage, NLPImage } from "../assets";
 
 export const Socials = [
     {
-        id: `facebook-${Date.now()}`,
-        Icon: FaFacebookF,
+        id: `email-${Date.now()}`,
+        Icon: HiOutlineMail,
         uril: "",
         color: "#1877F2",
     },
