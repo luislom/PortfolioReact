@@ -43,7 +43,7 @@ const Services = () => {
         return MenuServices.map((item, i)=>(
             <motion.div
             key={i}
-            className={`square animate-pulse flex flex-col justify-evenly items-center w-full h-fit md:w-1/3 md:h-5/6  m-4 rounded-xl shadow-md transition-transform transform hover:-translate-y-3 cursor-pointer border-4 border-principal bg-gradient-to-br from-blue-900 to-principal`}
+            className={`square animate-pulse flex flex-col justify-evenly items-center w-full h-fit md:w-1/3 md:h-5/6  m-4 rounded-xl shadow-md transition-transform transform hover:-translate-y-5 cursor-pointer border-4 border-principal bg-gradient-to-br from-principal to-darkcolor`}
             onClick={() => setService(item)}
             style={{ animationDelay: `${i *.3}s` }}
             variants={squareVariants}
@@ -78,7 +78,7 @@ const Services = () => {
                     {service 
                     ? (
                         <motion.div 
-                        className={` md:w-5/6 md:h-5/6 h-fit w-fit flex flex-col p-5 gap-5 md:p-10 md:gap-20 font-principalText rounded-xl shadow-md transition-transform transform hover:-translate-y-3 cursor-pointer border-4 border-primary backdrop-blur-sm`}
+                        className={` md:w-5/6 md:h-5/6 h-fit w-fit flex flex-col p-5 gap-5 md:p-10 md:gap-20 font-principalText rounded-xl shadow-md transition-transform transform hover:-translate-y-3 cursor-pointer border-4 border-principal backdrop-blur-sm`}
                         key="card"
                         variants={wrapperVariants}
                         initial="initial"
