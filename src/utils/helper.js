@@ -15,7 +15,7 @@ export const Socials = [
     {
         id: `email-${Date.now()}`,
         Icon: HiOutlineMail,
-        uril: "",
+        uril: "mailto:luisenriquelozanomejia@gmail.com",
         color: "#1877F2",
     },
     {

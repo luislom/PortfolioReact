@@ -43,15 +43,16 @@ const Services = () => {
         return MenuServices.map((item, i)=>(
             <motion.div
             key={i}
-            className={`square flex flex-col justify-evenly items-center w-full h-fit md:w-1/3 md:h-5/6  m-4 rounded-xl shadow-md transition-transform transform hover:-translate-y-3 cursor-pointer border-4 border-principal backdrop-blur-sm`}
+            className={`square animate-pulse flex flex-col justify-evenly items-center w-full h-fit md:w-1/3 md:h-5/6  m-4 rounded-xl shadow-md transition-transform transform hover:-translate-y-3 cursor-pointer border-4 border-principal bg-gradient-to-br from-blue-900 to-principal`}
             onClick={() => setService(item)}
+            style={{ animationDelay: `${i *.3}s` }}
             variants={squareVariants}
             transition={{ duration: 0.2, type: 'spring' }}
             >
-            <span 
-            className={`animate-ping rounded-full absolute inline-flex h-4/6 w-4/6 bg-sky-200 opacity-20`}
+            {/* <span 
+            className={`animate-ping duration-200 rounded-full absolute inline-flex h-4/6 w-4/6 bg-sky-200 opacity-20`}
             style={{ animationDelay: `${i *.3}s` }}
-            ></span>
+            ></span> */}
 
                 <h2 className="text-center font-bold text-xl font-principalText text-primary">{item.title}</h2>
                 <img className="md:w-1/2 md:h-1/2 w-1/3 h-1/3 " src={item.icon} alt={item.title} />

@@ -5,7 +5,7 @@ const HomeSocialLinks = ({data, index}) => {
     const [isHoverred, setIsHoverred] = useState(false);
     return (
         <motion.a key={index} 
-        href={data.uri}
+        href={data.uril}
         initial={{opacity: 0, y:25}}
         animate={{opacity: 1, y:0}}
         exit={{opacity: 0, y:25}}
