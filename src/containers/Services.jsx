@@ -49,7 +49,7 @@ const Services = () => {
             transition={{ duration: 0.2, type: 'spring' }}
             >
             <span 
-            className={`animate-ping rounded-full absolute inline-flex h-4/6 w-4/6 bg-sky-400 opacity-10`}
+            className={`animate-ping rounded-full absolute inline-flex h-4/6 w-4/6 bg-sky-200 opacity-20`}
             style={{ animationDelay: `${i *.3}s` }}
             ></span>
 
