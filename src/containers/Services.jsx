@@ -43,12 +43,12 @@ const Services = () => {
         return MenuServices.map((item, i)=>(
             <motion.div
             key={i}
-            className={`square flex flex-col justify-evenly items-center w-full h-fit md:w-1/3 md:h-5/6  m-4 rounded-xl shadow-md transition-transform transform hover:-translate-y-3 cursor-pointer border-4 border-primary backdrop-blur-sm`}
+            className={`square flex flex-col justify-evenly items-center w-full h-fit md:w-1/3 md:h-5/6  m-4 rounded-xl shadow-md transition-transform transform hover:-translate-y-3 cursor-pointer border-4 border-principal backdrop-blur-sm`}
             onClick={() => setService(item)}
             variants={squareVariants}
             transition={{ duration: 0.2, type: 'spring' }}
             >
-                <h2 className="text-center font-bold text-xl font-principalText tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-principal to-secondary">{item.title}</h2>
+                <h2 className="text-center font-bold text-xl font-principalText text-primary">{item.title}</h2>
                 <img className="md:w-1/2 md:h-1/2 w-1/3 h-1/3 " src={item.icon} alt={item.title} />
             </motion.div>
 
@@ -97,7 +97,7 @@ const Services = () => {
                     )
                     : (
                         <div className={`flex flex-col items-center justify-between gap-10 `} >
-                            <AnimatedTitle title={"Servicios"} classes={"text-5xl text-principal font-principalText text-center "} />
+                            <AnimatedTitle title={"Servicios"} classes={"text-5xl text-primary font-principalText text-center "} />
                             <motion.div 
                             className=" w-full h-full flex justify-center items-center bg-transparent flex-col md:flex-row"
                             key="squares"

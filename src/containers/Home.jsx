@@ -20,7 +20,7 @@ const Home = () => {
             <div
             className="w-full h-full flex flex-col items-center lg:items-start justify-center gap-0 lg:gap-4"
             >
-                <AnimatedTitle title={"Bienvenido a"} classes={"text-3xl lg:text-4xl text-principal font-principalText text-center lg:text-start"} />
+                <AnimatedTitle title={"Bienvenido a"} classes={"text-3xl lg:text-4xl text-primary font-principalText text-center lg:text-start"} />
             
                 <span className="block tracking-wider text-center lg:text-start text-4xl lg:text-5xl mt-2 text-primary font-principalText">
                 {" "}
@@ -49,7 +49,7 @@ const Home = () => {
 
                 </motion.h2>  */}
                 
-                <p className="w-screen md:w-full text-lg p-8 text-primary mt-2 text-center lg:p-0 lg:text-left">Conoce NEXUS, donde conectamos ideas para impulsar resultados. En un mundo cada vez más digital, la inteligencia artificial y la ciencia de datos son esenciales para mantenerse a la vanguardia. En NEXUS, te ayudamos a aprovechar el poder de estos campos para conseguir tus objetivos.</p>
+                <p className="w-screen md:w-full text-lg p-8 font-principalText text-primary mt-2 text-center lg:p-0 lg:text-left">Conoce NEXUS, donde conectamos ideas para impulsar resultados. En un mundo cada vez más digital, la inteligencia artificial y la ciencia de datos son esenciales para mantenerse a la vanguardia. En NEXUS, te ayudamos a aprovechar el poder de estos campos para conseguir tus objetivos.</p>
 
                 <div className="w-full h-full lg:hidden flex justify-center items-center">
                     <img src={Hero2} className="w-auto h-auto object-contain text-primary" />
