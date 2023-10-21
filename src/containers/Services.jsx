@@ -48,6 +48,11 @@ const Services = () => {
             variants={squareVariants}
             transition={{ duration: 0.2, type: 'spring' }}
             >
+            <span 
+            className={`animate-ping rounded-full absolute inline-flex h-4/6 w-4/6 bg-sky-400 opacity-10`}
+            style={{ animationDelay: `${i *.3}s` }}
+            ></span>
+
                 <h2 className="text-center font-bold text-xl font-principalText text-primary">{item.title}</h2>
                 <img className="md:w-1/2 md:h-1/2 w-1/3 h-1/3 " src={item.icon} alt={item.title} />
             </motion.div>
