@@ -18,7 +18,7 @@ const HomeSocialLinks = ({data, index}) => {
         >
         <AnimatePresence>
                 {isHoverred && (
-                <motion.div className="absolute inset-1 blur-md bg-gradient-to-br bg-secondary z-10" >
+                <motion.div className="absolute inset-1 blur-md bg-gradient-to-br bg-primary z-10" >
                 </motion.div>
             )}
             
