@@ -26,7 +26,7 @@ const HeroTypeWritter = ({words, speed}) => {
     };
     },[currentWord, speed, words]);
     return (
-        <span className="tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-principal to-secondary"> {currenttext} </span>
+        <span className="font-bold text-principal"> {currenttext} </span>
     )
 };
 

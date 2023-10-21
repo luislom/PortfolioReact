@@ -56,7 +56,7 @@ const Services = () => {
     }
     const renderServices = () => {
         return service.content.map((item, i) =>(
-            <div key={i} className="flex flex-row m-5 gap-2 text-secondary">
+            <div key={i} className="flex flex-row m-5 gap-2 text-principal">
                 <FaCheck  />
                 <h3 key={i} className="font-principalText text-xl text-primary"> {item.text}</h3>
             </div>

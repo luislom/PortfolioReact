@@ -12,7 +12,7 @@ const HomeSocialLinks = ({data, index}) => {
         transition={{
         delay:index * .3
     }}
-        className="w-12 h-12 rounded-full bg-gradient-to-br bg-principal relative p-[2px] cursor-pointer"
+        className="w-12 h-12 border-2 border-principal rounded-full bg-gradient-to-br bg-transparent relative p-[2px] cursor-pointer"
         onMouseEnter={() =>setIsHoverred(true)}
         onMouseLeave={() =>setIsHoverred(false)}
         >

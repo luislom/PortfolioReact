@@ -8,8 +8,8 @@
     border-radius: 50%;
     border-top: .2rem solid transparent;
     border-bottom: .2rem solid transparent;
-    border-left: .2rem solid #d0026a;
-    border-right: .2rem solid #d0026a;
+    border-left: .2rem solid #5AC5FE;
+    border-right: .2rem solid #5AC5FE;
     animation: aboutSpinner 8s linear infinite;
 }
 
